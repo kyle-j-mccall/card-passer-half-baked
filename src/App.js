@@ -1,5 +1,4 @@
 import './App.css';
-import initialCards from './cards-data';
 import Player from './components/Player';
 import CardList from './components/CardList';
 import { useContext } from 'react';
@@ -7,13 +6,7 @@ import ExecutePassButton from './components/ExecutePassButton';
 import { GameContext } from './context/GameContext';
 
 function App() {
-  // const [deck, setDeck] = useState(initialCards);
-  // const [playerOneHand, setPlayerOneHand] = useState([]);
-  // const [selectedCard, setSelectedCard] = useState();
-  // const [playerTwoHand, setPlayerTwoHand] = useState([]);
-  // const [playerThreeHand, setPlayerThreeHand] = useState([]);
-  // const [from, setFrom] = useState('deck');
-  // const [to, setTo] = useState(1);
+  
 
   const {
     deck,
